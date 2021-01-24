@@ -22,7 +22,8 @@ tgt_vocab: NMT/run/example.vocab.tgt
 # Train on a single GPU
 world_size: 1
 gpu_ranks: [0]
-
+rnn_size: 512
+layers: 6
 # Where to save the checkpoints
 save_model: NMT/run/model
 save_checkpoint_steps: 500
